@@ -7,6 +7,9 @@ function Footer() {
         <a href="https://github.com/mirasoldavila13" aria-label="GitHub" className="text-xl"><FaGithub /></a>
         <a href="https://linkedin.com/in/mirasoldavila/" aria-label="LinkedIn" className="text-xl"><FaLinkedin /></a>
       </div>
+      <p className="text-sm text-gray-400">
+        © {new Date().getFullYear()} Mirasol Davila. All rights reserved.
+      </p>
     </footer>
   );
 }
