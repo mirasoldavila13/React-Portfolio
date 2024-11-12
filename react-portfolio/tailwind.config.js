@@ -14,6 +14,8 @@ export default {
         accent2: '#BCB9DB',
     },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui")
+  ],
 }
 
