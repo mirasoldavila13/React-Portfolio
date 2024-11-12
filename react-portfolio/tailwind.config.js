@@ -8,14 +8,14 @@ export default {
     extend: {},
     colors: {
       primaryBg: '#1A1A2E',       // Dark background
-        secondaryBg: '#24243A',     // Slightly lighter for sections
-        textLight: '#EAEAF4',       // Light gray text
-        accent1: '#B04FA9',         // Fuchsia
-        accent2: '#BCB9DB',
+      secondaryBg: '#24243A',     // Slightly lighter for sections
+      textLight: '#EAEAF4',       // Light gray text
+      accent1: '#B04FA9',         // Fuchsia
+      accent2: '#BCB9DB',         // Light accent color
+      white: '#FFFFFF',           // White color to avoid hardcoding #FFFFFF
     },
   },
   plugins: [
     require("daisyui")
   ],
 }
-
