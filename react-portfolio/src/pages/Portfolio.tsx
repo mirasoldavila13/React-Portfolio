@@ -62,16 +62,22 @@ function Portfolio() {
           </figure>
           <section className="p-4">
             <h2 className="text-2xl font-semibold mb-2">Neighborhood Aid</h2>
+
             <p className="text-textLight mb-4">
               <strong>Tech Stack:</strong>
-              Frontend: React, Vite, TypeScript, Tailwind CSS;
-              Backend: JavaScript, Node.js, Express.js, Sequelize, Sequelize CLI, CORS;
-              Database: PostgreSQL;
-              APIs: OpenWeather API, OpenWeather Geolocation API, OpenStreetMap, Nominatim, Browser Geolocation API;
-              HTTP Client: Axios;
-              Testing: Postman for backend testing;
-              Deployment: Vite for frontend, Node.js for backend.
-              <br /><br />
+              <br />
+              <strong>Frontend:</strong> React, Vite, TypeScript, Tailwind CSS, Leaflet.js, Responsive Web Design.<br />
+              <strong>Backend:</strong> Node.js, Express.js, Sequelize (ORM), Sequelize CLI, RESTful Web Services, MVC architecture.<br />
+              <strong>Database:</strong> PostgreSQL.<br />
+              <strong>APIs & Integrations:</strong> OpenWeather API, OpenWeather Geolocation API, OpenStreetMap, Nominatim, Browser Geolocation API.<br />
+              <strong>HTTP Client:</strong> Axios.<br />
+              <strong>Security:</strong> JWT for authentication, bcrypt for secure password hashing, CORS.<br />
+              <strong>Version Control:</strong> Git, GitHub.<br />
+              <strong>Testing:</strong> Postman for backend testing.<br />
+              <strong>Deployment:</strong> Vite for frontend, Node.js for backend.
+            </p>
+
+            <p className="text-textLight mb-4">
               <strong>Description:</strong> NeighborhoodAid is a RESTful API and React-based platform designed to empower citizens to report local issues such as potholes, streetlight outages, or vandalism. The platform provides a seamless user experience where individuals can track the progress of their reports, receive real-time updates when issues are resolved, and engage with others in their community. By bringing communities together, NeighborhoodAid aims to foster civic engagement, transparency, and collaboration in solving local problems.
             </p>
 
@@ -95,6 +101,7 @@ function Portfolio() {
             </div>
           </section>
         </motion.article>
+
 
         {/* ProReadMeGenerator Project */}
         <motion.article
