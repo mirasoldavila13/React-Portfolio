@@ -123,6 +123,241 @@ function Resume() {
             </div>
           </article>
         </motion.section>
+        
+        {/* Skills Section */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mb-10"
+          aria-labelledby="skills-heading"
+        >
+          <header>
+            <h2 id="skills-heading" className="text-2xl font-semibold mb-4 border-b border-gray-600 pb-2">Skills</h2>
+          </header>
+          <section className="flex flex-wrap gap-4">
+            {/* Programming Languages */}
+            <article>
+              <h3 className="font-semibold">Programming Languages</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Java</span>
+                <span className="badge badge-outline">JavaScript</span>
+                <span className="badge badge-outline">TypeScript</span>
+                <span className="badge badge-outline">Python</span>
+                <span className="badge badge-outline">C#</span>
+                <span className="badge badge-outline">Haskell</span>
+                <span className="badge badge-outline">HTML5</span>
+                <span className="badge badge-outline">CSS</span>
+                <span className="badge badge-outline">SQL</span>
+                <span className="badge badge-outline">NoSQL</span>
+                <span className="badge badge-outline">Swift</span>
+              </div>
+            </article>
+
+            {/* Databases */}
+            <article>
+              <h3 className="font-semibold">Databases</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">PostgreSQL</span>
+                <span className="badge badge-outline">MongoDB</span>
+                <span className="badge badge-outline">MySQL</span>
+                <span className="badge badge-outline">Cassandra</span>
+                <span className="badge badge-outline">Sequelize (ORM)</span>
+                <span className="badge badge-outline">JPA</span>
+              </div>
+            </article>
+
+            {/* Frontend Development */}
+            <article>
+              <h3 className="font-semibold">Frontend Development</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">React</span>
+                <span className="badge badge-outline">Vite</span>
+                <span className="badge badge-outline">TypeScript</span>
+                <span className="badge badge-outline">Tailwind CSS</span>
+                <span className="badge badge-outline">Daisy UI</span>
+                <span className="badge badge-outline">Framer Motion</span>
+                <span className="badge badge-outline">Bootstrap</span>
+                <span className="badge badge-outline">Leaflet.js</span>
+                <span className="badge badge-outline">Responsive Web Design</span>
+              </div>
+            </article>
+
+            {/* Backend Development */}
+            <article>
+              <h3 className="font-semibold">Backend Development</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Node.js</span>
+                <span className="badge badge-outline">Express.js</span>
+                <span className="badge badge-outline">Sequelize (ORM)</span>
+                <span className="badge badge-outline">Sequelize CLI</span>
+                <span className="badge badge-outline">RESTful Web Services</span>
+                <span className="badge badge-outline">SOAP</span>
+                <span className="badge badge-outline">MVC Architecture</span>
+                <span className="badge badge-outline">Spring Boot</span>
+                <span className="badge badge-outline">Hibernate</span>
+                <span className="badge badge-outline">GraphQL</span>
+                <span className="badge badge-outline">Spring Boot Test</span>
+              </div>
+            </article>
+
+            {/* APIs and Integrations */}
+            <article>
+              <h3 className="font-semibold">APIs and Integrations</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">OpenWeather API</span>
+                <span className="badge badge-outline">OpenWeather Geolocation API</span>
+                <span className="badge badge-outline">OpenStreetMap API</span>
+                <span className="badge badge-outline">Nominatim API</span>
+                <span className="badge badge-outline">Browser Geolocation API</span>
+                <span className="badge badge-outline">Axios</span>
+                <span className="badge badge-outline">hls.js</span>
+              </div>
+            </article>
+
+            {/* AI-Powered Technologies */}
+            <article>
+              <h3 className="font-semibold">AI-Powered Technologies</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">OpenAI</span>
+                <span className="badge badge-outline">LangChain</span>
+              </div>
+            </article>
+
+            {/* Tools and Platforms */}
+            <article>
+              <h3 className="font-semibold">Tools and Platforms</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Docker</span>
+                <span className="badge badge-outline">Kubernetes</span>
+                <span className="badge badge-outline">OpenShift</span>
+                <span className="badge badge-outline">Google Cloud</span>
+                <span className="badge badge-outline">Git</span>
+                <span className="badge badge-outline">GitHub</span>
+                <span className="badge badge-outline">GitHub Actions</span>
+                <span className="badge badge-outline">CircleCI</span>
+                <span className="badge badge-outline">Jira</span>
+                <span className="badge badge-outline">Confluence</span>
+                <span className="badge badge-outline">Swagger</span>
+                <span className="badge badge-outline">Figma</span>
+                <span className="badge badge-outline">Salesforce</span>
+                <span className="badge badge-outline">Xcode</span>
+                <span className="badge badge-outline">Render</span>
+                <span className="badge badge-outline">VirtualBox</span>
+                <span className="badge badge-outline">Zoom</span>
+                <span className="badge badge-outline">Slack</span>
+                <span className="badge badge-outline">Trello</span>
+                <span className="badge badge-outline">Postman API</span>
+                <span className="badge badge-outline">Wireshark</span>
+                <span className="badge badge-outline">Inquirer</span>
+                <span className="badge badge-outline">Nmap</span>
+              </div>
+            </article>
+
+            {/* Operating Systems */}
+            <article>
+              <h3 className="font-semibold">Operating Systems</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Linux</span>
+                <span className="badge badge-outline">Kali Linux</span>
+                <span className="badge badge-outline">Windows</span>
+                <span className="badge badge-outline">OS</span>
+              </div>
+            </article>
+
+            {/* Build Tools */}
+            <article>
+              <h3 className="font-semibold">Build Tools</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Maven</span>
+                <span className="badge badge-outline">Gradle</span>
+                <span className="badge badge-outline">Webpack</span>
+                <span className="badge badge-outline">Vite</span>
+              </div>
+            </article>
+
+            {/* Testing Tools */}
+            <article>
+              <h3 className="font-semibold">Testing Tools</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">JUnit</span>
+                <span className="badge badge-outline">Selenium</span>
+                <span className="badge badge-outline">Mocha</span>
+                <span className="badge badge-outline">Chai</span>
+                <span className="badge badge-outline">Jest</span>
+                <span className="badge badge-outline">Mockito</span>
+                <span className="badge badge-outline">Postman</span>
+                <span className="badge badge-outline">JMeter</span>
+                <span className="badge badge-outline">A/B Testing</span>
+                <span className="badge badge-outline">Black Box Testing</span>
+              </div>
+            </article>
+
+            {/* Security */}
+            <article>
+              <h3 className="font-semibold">Security</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">JSON Web Token (JWT)</span>
+                <span className="badge badge-outline">OAuth</span>
+                <span className="badge badge-outline">SSL/TLS</span>
+                <span className="badge badge-outline">bcrypt</span>
+                <span className="badge badge-outline">CORS (Middleware)</span>
+              </div>
+            </article>
+
+            {/* Concepts and Methodologies */}
+            <article>
+              <h3 className="font-semibold">Concepts and Methodologies</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Object-Oriented Programming (OOP)</span>
+                <span className="badge badge-outline">Data Structures</span>
+                <span className="badge badge-outline">RESTful API</span>
+                <span className="badge badge-outline">CRUD Operations</span>
+                <span className="badge badge-outline">API Integration</span>
+                <span className="badge badge-outline">Behavior-Driven Development (BDD)</span>
+                <span className="badge badge-outline">Test-Driven Development (TDD)</span>
+                <span className="badge badge-outline">Model-View-Controller (MVC)</span>
+                <span className="badge badge-outline">Microservices</span>
+                <span className="badge badge-outline">Continuous Integration/Delivery (CI/CD)</span>
+                <span className="badge badge-outline">Agile Methodologies</span>
+                <span className="badge badge-outline">DevOps</span>
+                <span className="badge badge-outline">Software Development Life Cycle (SDLC)</span>
+                <span className="badge badge-outline">Version Control</span>
+                <span className="badge badge-outline">Daily Scrum Stand-Ups</span>
+                <span className="badge badge-outline">Kanban</span>
+                <span className="badge badge-outline">Waterfall</span>
+              </div>
+            </article>
+
+            {/* Networking and Cybersecurity */}
+            <article>
+              <h3 className="font-semibold">Networking and Cybersecurity</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Network Security</span>
+                <span className="badge badge-outline">Cybersecurity</span>
+                <span className="badge badge-outline">Linux Networking</span>
+                <span className="badge badge-outline">Cryptography</span>
+              </div>
+            </article>
+
+            {/* Additional Skills */}
+            <article>
+              <h3 className="font-semibold">Additional Skills</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-outline">Debugging</span>
+                <span className="badge badge-outline">Problem Solving</span>
+                <span className="badge badge-outline">Code Review</span>
+                <span className="badge badge-outline">Pair Programming</span>
+                <span className="badge badge-outline">API Documentation</span>
+                <span className="badge badge-outline">Public Speaking</span>
+                <span className="badge badge-outline">Time Management</span>
+                <span className="badge badge-outline">Teamwork</span>
+                <span className="badge badge-outline">Leadership</span>
+              </div>
+            </article>
+          </section>
+        </motion.section>
+
       </div>
     </main>
   );
