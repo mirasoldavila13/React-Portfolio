@@ -1,50 +1,110 @@
-# React + TypeScript + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Run the Development Server](#run-the-development-server)
+  - [Build for Production](#build-for-production)
+  - [Deploy to Netlify](#deploy-to-netlify)
+- [Contact Form with EmailJS](#contact-form-with-emailjs)
+- [Projects](#projects)
+- [License](#license)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+This is a React-based developer portfolio showcasing work samples, skills, and experience. The application includes sections like **About Me**, **Portfolio**, **Contact**, and **Resume**, helping potential employers assess qualifications and work samples.
 
-## Expanding the ESLint configuration
+## Features
+- Single-page application (SPA) built using React.
+- Dynamic navigation bar highlighting the current section.
+- Mobile-first responsive design with **TailwindCSS** and **DaisyUI**.
+- Fully functional contact form powered by **EmailJS**.
+- Six featured projects with links to live demos and GitHub repositories.
+- Downloadable resume in PDF format.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
+- **React** for building the SPA.
+- **React Router DOM** for navigation.
+- **TypeScript** for type safety and better developer experience
+- **Framer Motion** for animations.
+- **EmailJS** for handling contact form submissions.
+- **Vite** for a fast development and build setup.
+- **TailwindCSS** and **DaisyUI** for styling.
+- **Netlify** for deployment.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation
+Follow these steps to run the application locally:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-portfolio.git
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+2. Navigate to the project directory:
+    ```bash
+    cd react-portfolio
+    ```
+
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+
+## Usage
+### Run The Development Server
+
+ Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Build for Production
+Generate a production build:
+  ```bash
+  npm run build
+  ```
+
+### Deploy to Netlify
+
+1. Go to [Netlify](https://www.netlify.com/).
+2. Drag and drop your `dist` folder into the deployment area, or link your GitHub repository for continuous deployment.
+
+---
+
+### Contact Form with EmailJS
+
+The contact form on this portfolio uses **EmailJS** to securely send messages to the developer's email.
+
+#### How It Works:
+1. Users fill out their name, email, and message on the form.
+2. The form validates the inputs (e.g., email format) and displays feedback if required fields are empty or invalid.
+3. Once submitted, **EmailJS** uses a predefined template to send the user's details (name, email, and message) directly to the developer's email.
+4. A success or error message is displayed to the user after submission.
+
+#### Why EmailJS?
+
+- **Predefined Templates**: The use of templates ensures that every message follows a consistent format, making it easy to review and respond to.
+- **No Back-End Required**: EmailJS eliminates the need for a back-end server, making it a lightweight and secure solution for handling form submissions.
+- **Secure and Efficient**: By integrating EmailJS, the developer can manage contact form submissions in a secure and efficient manner while protecting sensitive information like email addresses.
+
+The template ensures that the developer receives a structured email containing all necessary details, allowing for easy communication with users.
+
+
+---
+
+### License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+### Author
+
+Developed by **Mirasol Davila**. You can contact me directly using the contact form on this portfolio.
