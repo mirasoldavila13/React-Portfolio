@@ -123,7 +123,85 @@ function Resume() {
             </div>
           </article>
         </motion.section>
-        
+
+        {/* Projects Section */}
+        <motion.section
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5, delay: 0.2 }}
+  className="mb-10"
+  aria-labelledby="projects-heading"
+>
+  <h2 id="projects-heading" className="text-2xl font-semibold mb-4">Projects</h2>
+  <article className="space-y-4">
+    {/* Neighborhood Aid Project */}
+    <div>
+      <h3 className="text-xl font-bold text-white">Neighborhood Aid</h3>
+      <p className="text-sm text-accent1 mb-4 text-white">
+        A RESTful API and React-based platform empowering citizens to report and track local issues like potholes, streetlight outages, or vandalism.
+      </p>
+
+      <h4 className="font-semibold text-lg text-accent1 mb-2 text-white">Key Contributions:</h4>
+      <ul className="list-disc list-inside space-y-1 text-sm text-white">
+        <li>
+          <strong>Full-Stack Architecture & Development:</strong> Architected and developed a scalable full-stack solution using <strong>React</strong>, <strong>Node.js</strong>, and <strong>Sequelize ORM</strong>, ensuring high performance across both frontend and backend systems with <strong>Vite</strong>, <strong>Tailwind CSS</strong>, and <strong>PostgreSQL</strong>.
+        </li>
+        <li>
+          <strong>API Design & Integration:</strong> Led the design and implementation of a robust RESTful API with <strong>Node.js</strong> and <strong>Express.js</strong>, incorporating best security practices using <strong>JWT</strong> and <strong>bcrypt</strong> for secure authentication. Integrated third-party APIs like <strong>OpenWeather</strong>, <strong>OpenStreetMap</strong>, and <strong>Nominatim</strong> for dynamic geolocation and weather data, and handled geolocation using React’s <strong>useState</strong> and <strong>useEffect</strong> hooks to manage real-time data updates, user sessions, and interactive map markers.
+        </li>
+        <li>
+          <strong>System Scalability & Performance:</strong> Optimized database performance with <strong>Sequelize ORM</strong>, resolving bottlenecks and ensuring scalability with advanced data modeling and query optimization.
+        </li>
+        <li>
+          <strong>Security & Authentication Leadership:</strong> Implemented robust security measures, including JWT-based user authentication and <strong>bcrypt</strong> for password hashing, ensuring secure API access and data protection.
+        </li>
+        <li>
+          <strong>Continuous Integration & Agile Practices:</strong> Drove adoption of CI/CD workflows using GitHub Actions, maintained agile development best practices, and ensured seamless collaboration through version control, code reviews, and sprint planning.
+        </li>
+      </ul>
+
+      <h4 className="font-semibold text-lg text-accent1 mb-2 text-white">Additional Contributions:</h4>
+      <ul className="list-disc list-inside space-y-1 text-sm text-white">
+        <li>
+          <strong>Project Setup & Infrastructure:</strong> Set up the initial project infrastructure and modular codebase, configuring local and production environments for optimized builds.
+        </li>
+        <li>
+          <strong>API Route Optimization & Middleware:</strong> Designed and optimized key API routes for efficiency, with comprehensive middleware for logging, error handling, and CORS integration.
+        </li>
+        <li>
+          <strong>UI/UX Design & Component Development:</strong> Developed UI components for a seamless user experience, ensuring accessibility compliance and responsive design using <strong>Tailwind CSS</strong>.
+        </li>
+      </ul>
+
+      <div className="flex gap-4 mt-4">
+        <a
+          href="https://github.com/mirasoldavila13/NeighborhoodAid"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent1 underline hover:text-accent2"
+        >
+          View GitHub Repository
+        </a>
+        <a
+          href="https://neighborhoodaid.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent1 underline hover:text-accent2"
+        >
+          View Live Demo
+        </a>
+      </div>
+    </div>
+  </article>
+</motion.section>
+
+
+
+
+
+
+
+
         {/* Skills Section */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}
