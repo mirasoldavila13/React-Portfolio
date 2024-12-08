@@ -26,31 +26,19 @@ function AboutMe() {
           </header>
 
           <AnimatedParagraph>
-            I’m a full-stack software engineer with extensive experience in designing and deploying scalable solutions across both front-end and back-end systems. With a Bachelor of Science in Computer Science from California State University, Los Angeles, I have developed responsive, user-centered interfaces using React and created secure, efficient back-end systems with Spring Boot. My skill set spans JavaScript, TypeScript, Java, cloud infrastructure, and DevOps practices, allowing me to bring a comprehensive, adaptable approach to every project.
+            I’m a full-stack software engineer with a Bachelor of Science in Computer Science from California State University, Los Angeles. I specialize in creating user-focused interfaces with React and building secure, scalable back-end systems with Spring Boot. My technical expertise spans JavaScript, TypeScript, Java, cloud infrastructure, and DevOps practices, enabling me to deliver impactful, resilient solutions.
           </AnimatedParagraph>
 
           <AnimatedParagraph delay={0.2}>
-            Throughout my career, I have thrived in team environments where I take initiative in both collaborative projects and independent tasks. With a solid foundation in the Software Development Life Cycle (SDLC), I apply test-driven (TDD) and behavior-driven development (BDD) principles to build high-quality, resilient applications. My testing expertise includes A/B testing, black box testing, and quality assurance using tools like JUnit, Selenium, Mockito, Mocha, Chai, Jest, Postman, and JMeter.
+            I thrive in collaborative environments and apply test-driven (TDD) and behavior-driven (BDD) development practices to create high-quality applications. My experience includes using tools like Selenium, Jest, and Postman for testing, alongside CI/CD pipelines for efficient deployments.
           </AnimatedParagraph>
 
           <AnimatedParagraph delay={0.3}>
-            Currently, I am expanding my cybersecurity skills through UC Santa Barbara's Professional and Continuing Education program, where I am building practical expertise in vulnerability assessment, system optimization, and incident response. This aligns with my ongoing pursuit of the CompTIA Security+ certification, reinforcing my commitment to secure software development.
+            As a member of SHPE and WiCyS, I actively advocate for diversity in tech while staying engaged with industry trends. Beyond technical contributions, I have over 10 years of experience mentoring STEM learners through programs like MESA, EnCorps, and United Voices of Literacy, where I’ve guided students in building skills and confidence in technology and problem-solving.
           </AnimatedParagraph>
 
           <AnimatedParagraph delay={0.4}>
-            As a professional member of SHPE (Society of Hispanic Professional Engineers) and WiCyS (Women in CyberSecurity), I actively advocate for diversity in tech and stay engaged with industry trends. My goal is to contribute to projects that deliver meaningful, user-centered solutions within innovative, forward-thinking teams.
-          </AnimatedParagraph>
-
-          <AnimatedParagraph delay={0.5}>
-            Beyond my technical roles, I have over 10 years of commitment to community engagement, particularly in supporting the next generation of STEM learners. At Cal State LA, I led efforts within the MESA Schools Program, organizing STEM-focused events with both strategic oversight and hands-on involvement. A key contribution was leading the Cascade The Code: MESA Senior Day, where I prepared over 40 student volunteers to teach HTML and CSS to more than 400 high school students, equipping them with essential tech skills and confidence.
-          </AnimatedParagraph>
-
-          <AnimatedParagraph delay={0.6}>
-            Additionally, I volunteer with United Voices of Literacy, helping 3rd to 7th grade students develop reading and comprehension skills. As an EnCorps STEMx Tutor, I work with middle school students to build math proficiency and confidence through curriculum-aligned support. I am also passionate about introducing students to STEM through hands-on tools like the LEGO® Education SPIKE™ Essential and SPIKE™ Prime Sets, Scratch, and Code.org, helping them develop a strong foundation in technology and problem-solving.
-          </AnimatedParagraph>
-
-          <AnimatedParagraph delay={0.7}>
-            Through these mentorship roles, I provide students with the foundational skills, tools, and encouragement they need to grow confidently in their learning journeys. My adaptability, communication, and commitment to student success have enabled me to achieve a 96% passing rate—an accomplishment that reflects my dedication to creating effective learning environments. I enjoy tackling complex challenges and bringing creative, efficient solutions to each project, ensuring that both user needs and technical requirements are met. I am quick to adapt to new tools and technologies, always eager to integrate modern solutions to enhance project outcomes. I look forward to contributing my technical expertise, collaborative spirit, and commitment to impactful work on teams that value growth, innovation, and meaningful contributions.
+            My adaptability, creativity, and passion for meaningful work drive me to solve complex challenges and contribute to impactful projects. I’m excited to bring my technical expertise and collaborative spirit to teams that value growth, innovation, and positive contributions.
           </AnimatedParagraph>
 
           {/* Gradient Button */}
@@ -62,10 +50,6 @@ function AboutMe() {
               boxShadow: "0px 0px 15px rgba(255, 105, 180, 0.5)",
             }}
             whileTap={{ scale: 0.95 }}
-            style={{
-              color: "textLight",
-              textShadow: "0px 0px 5px rgba(0, 0, 0, 0.5)",
-            }}
           >
             View My Work
           </motion.a>
